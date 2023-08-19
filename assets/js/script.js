@@ -31,7 +31,7 @@ genreList.addEventListener("click", function (event) {
 
   var searchURL;
 
-  for (let k = 1; k < 2; k++) { //Iterating through the first 10 pages in order to find "horror" movies in english and with a vote average of at least 8.
+  for (let k = 1; k < 11; k++) { //Iterating through the first 10 pages in order to find movies in english and with a vote average of at least 7.
 
     searchURL = searchGenre + '&page=' + k;
 
